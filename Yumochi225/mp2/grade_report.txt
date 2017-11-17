@@ -1,0 +1,8 @@
+Grading r11406 by yumochi2 committed on Mon Sep 12 20:51:30 CDT 2016
+Monad Autograder
+Testing mp2 at 2016-09-13 00:35:04
+
+"A lot of the things that I say are true, but I don't actually mean them." ~ Alexey Stepanov
+
+Setting up test environment...
+Error: /dev/shm/cs225student/autograder/temp/mp2/scene.cpp does not exist.

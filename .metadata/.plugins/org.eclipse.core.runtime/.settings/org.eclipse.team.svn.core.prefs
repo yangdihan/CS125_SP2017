@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/20378889d1dc001618869fd827247065=20378889d1dc001618869fd827247065;https\://subversion.ews.illinois.edu/svn/sp17-cs125/dyang42;https\://subversion.ews.illinois.edu/svn/sp17-cs125/dyang42;branches;tags;trunk;true;77ea4032-368f-4941-8b5a-a77381e4a242;https\://subversion.ews.illinois.edu/svn/sp17-cs125;;false;<https\://subversion.ews.illinois.edu\:443> UofI Active Directory;;0
+repositories/b06a8f5c51e200161761909476680d99=b06a8f5c51e200161761909476680d99;https\://subversion.ews.illinois.edu/svn/sp17-cs125/_shared/;https\://subversion.ews.illinois.edu/svn/sp17-cs125/_shared/;branches;tags;trunk;true;77ea4032-368f-4941-8b5a-a77381e4a242;https\://subversion.ews.illinois.edu/svn/sp17-cs125;;false;<https\://subversion.ews.illinois.edu\:443> UofI Active Directory;;0

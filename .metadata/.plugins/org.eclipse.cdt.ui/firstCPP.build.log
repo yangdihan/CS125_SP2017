@@ -1,0 +1,19 @@
+04:55:50 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:34:6: warning: unused variable 'a' [-Wunused-variable]
+        int a;
+            ^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+
+04:55:50 Build Finished (took 644ms)
+

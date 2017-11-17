@@ -1,0 +1,214 @@
+08:27:35 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+make: Nothing to be done for `all'.
+08:27:38 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+make: Nothing to be done for `all'.
+04:43:23 **** Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:43:44 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:43:54 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:44:20 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:44:36 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:44:46 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:35:7: error: cannot initialize a variable of type 'int *' with an rvalue of type 'int'
+        int *b = 5;
+             ^   ~
+1 error generated.
+make: *** [main.o] Error 1
+04:45:18 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:39:3: warning: variable 'b' is uninitialized when used here [-Wuninitialized]
+        *b = 5;
+         ^
+../main.cpp:35:8: note: initialize the variable 'b' to silence this warning
+        int *b;
+              ^
+               = NULL
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:45:39 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:45:47 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:53:10 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:34:6: warning: unused variable 'a' [-Wunused-variable]
+        int a;
+            ^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:53:56 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:37:5: error: expression is not assignable
+        &r = *b;
+        ~~ ^
+1 error generated.
+make: *** [main.o] Error 1
+04:54:03 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:37:5: error: expression is not assignable
+        &r = b;
+        ~~ ^
+1 error generated.
+make: *** [main.o] Error 1
+04:54:33 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:34:6: warning: unused variable 'a' [-Wunused-variable]
+        int a;
+            ^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:54:50 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:34:6: warning: unused variable 'a' [-Wunused-variable]
+        int a;
+            ^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
+04:55:44 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:36:7: error: non-const lvalue reference to type 'int' cannot bind to a value of unrelated type 'int *'
+        int &r = b;
+             ^   ~
+1 error generated.
+make: *** [main.o] Error 1
+04:55:50 **** Incremental Build of configuration Debug for project firstCPP ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:34:6: warning: unused variable 'a' [-Wunused-variable]
+        int a;
+            ^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: firstCPP
+Invoking: MacOS X C++ Linker
+g++  -o "firstCPP"  ./main.o ./rat.o   
+Finished building target: firstCPP
+ 
